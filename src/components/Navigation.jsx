@@ -17,9 +17,15 @@ function Navigation() {
                   <span className="sr-only">(current)</span>
                 </NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink className="nav-link" to="/callout">
                   Callout
+                  <span className="sr-only">(current)</span>
+                </NavLink>
+              </li> */}
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/callout2">
+                  Callout2
                   <span className="sr-only">(current)</span>
                 </NavLink>
               </li>

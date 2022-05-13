@@ -1,33 +1,32 @@
 import React from "react";
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const initialFormState = { name: '' }
 
 function Callout() {
 
-  console.log('called')
+  function debounce(func, timeout = 300){
+    let timer;
+    return (...args) => {
+      clearTimeout(timer);
+      timer = setTimeout(() => { func.apply(this, args); }, timeout);
+    };
+  }
 
-  const [name, setName] = useState([]);
   const [formData, setFormData] = useState(initialFormState);
 
   let notif_source = '/notification_sound.wav'
   let audio = new Audio(notif_source);
   audio.play();
 
-  async function onChange(e) {
-    setFormData({ ...formData});
-    // await Storage.put(file.name, file);
-  }
-
   let speech = new SpeechSynthesisUtterance();
-
   speech.lang = "en-US";
   speech.text = "Next in line please come forward.";
   speech.volume = 2;
   speech.rate = 0.8;
   speech.pitch = 5;        
 
-  window.speechSynthesis.speak(speech);
+  window.speechSynthesis.speak(speech)
 
   return (
     <div className="callout">
@@ -52,7 +51,7 @@ function Callout() {
           scrollamount="3">
 
           <p>
-            <font size="100">{formData.name}</font>
+            <font size="200">{formData.name}</font>
           </p> 
         
         </marquee>

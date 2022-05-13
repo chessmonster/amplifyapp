@@ -39,6 +39,7 @@ import {
   Footer,
   Home,
   Callout,
+  Callout2,
   About,
   Contact,
   Blog,
@@ -51,7 +52,8 @@ ReactDOM.render(
     <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/callout" element={<Callout />} />
+      {/* <Route path="/callout" element={<Callout />} /> */}
+      <Route path="/callout2" element={<Callout2 />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/blog" element={<Blog />}>
