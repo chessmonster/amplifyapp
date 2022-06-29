@@ -43,6 +43,7 @@ import {
   About,
   Contact,
   Blog,
+  Googlepro,
   Posts,
   Post,
 } from "./components/";
@@ -60,6 +61,7 @@ ReactDOM.render(
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
       </Route>
+      <Route path="/googlepro" element={<Googlepro />} />
     </Routes>
     <Footer />
   </Router>,
