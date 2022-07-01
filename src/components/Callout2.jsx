@@ -34,13 +34,13 @@ class Callout2 extends React.Component {
     render() {
       return (
         <div className="callout">
-          <div class="container">
+          <div className="container">
 
             <div class="row align-items-center my-5">
               <div class="w-100 p-3 col-lg-5">
                 <form onSubmit={this.handleSubmit}>
                   <label>
-                    Name:
+                    Name: &nbsp;
                     <input type="text" 
                         value={this.state.value} 
                         onChange={this.handleChange} />
