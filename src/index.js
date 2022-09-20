@@ -46,6 +46,7 @@ import {
   Googlepro,
   Posts,
   Post,
+  ImgToText,
 } from "./components/";
 
 ReactDOM.render(
@@ -55,6 +56,7 @@ ReactDOM.render(
       <Route path="/" element={<Home />} />
       {/* <Route path="/callout" element={<Callout />} /> */}
       <Route path="/callout2" element={<Callout2 />} />
+      <Route path="/imgtotext" element={<ImgToText />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/blog" element={<Blog />}>

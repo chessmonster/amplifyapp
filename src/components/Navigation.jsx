@@ -17,18 +17,28 @@ function Navigation() {
                   <span className="sr-only">(current)</span>
                 </NavLink>
               </li>
-              {/* <li className="nav-item">
-                <NavLink className="nav-link" to="/callout">
-                  Callout
-                  <span className="sr-only">(current)</span>
-                </NavLink>
-              </li> */}
               <li className="nav-item">
                 <NavLink className="nav-link" to="/callout2">
                   Callout2
                   <span className="sr-only">(current)</span>
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/googlepro">
+                  Google Pro
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/imgtotext">
+                  Image to Text
+                </NavLink>
+              </li>
+              {/* <li className="nav-item">
+                <NavLink className="nav-link" to="/callout">
+                  Callout
+                  <span className="sr-only">(current)</span>
+                </NavLink>
+              </li> */}
               {/* <li className="nav-item">
                 <NavLink className="nav-link" to="/about">
                   About
@@ -44,11 +54,6 @@ function Navigation() {
                   Blog
                 </NavLink>
               </li> */}
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/googlepro">
-                  Google Pro
-                </NavLink>
-              </li>
             </ul>
           </div>
         </div>

@@ -9,3 +9,4 @@ export { default as Blog } from "./blog/Blog";
 export { default as Posts } from "./blog/Posts";
 export { default as Post } from "./blog/Post";
 export { default as Googlepro } from "./Googlepro";
+export { default as ImgToText } from "./ImgToText";
