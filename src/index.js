@@ -47,6 +47,7 @@ import {
   Posts,
   Post,
   ImgToText,
+  PdfToText,
 } from "./components/";
 
 ReactDOM.render(
@@ -64,6 +65,7 @@ ReactDOM.render(
         <Route path=":postSlug" element={<Post />} />
       </Route>
       <Route path="/googlepro" element={<Googlepro />} />
+      <Route path="/pdftotext" element={<PdfToText />} />
     </Routes>
     <Footer />
   </Router>,

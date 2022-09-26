@@ -10,3 +10,4 @@ export { default as Posts } from "./blog/Posts";
 export { default as Post } from "./blog/Post";
 export { default as Googlepro } from "./Googlepro";
 export { default as ImgToText } from "./ImgToText";
+export { default as PdfToText } from "./PdfToText";

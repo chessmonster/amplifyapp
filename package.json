@@ -8,6 +8,8 @@
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
     "aws-amplify": "^4.3.20",
+    "pdfjs": "^2.4.7",
+    "pdfjs-dist": "^2.16.105",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.3.0",

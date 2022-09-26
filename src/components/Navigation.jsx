@@ -25,12 +25,17 @@ function Navigation() {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/googlepro">
-                  Google Pro
+                  GooglePro
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/imgtotext">
-                  Image to Text
+                  Image2Text
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/pdftotext">
+                  Pdf2Text
                 </NavLink>
               </li>
               {/* <li className="nav-item">
