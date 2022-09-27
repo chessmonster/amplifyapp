@@ -84,7 +84,7 @@ const PdfToText = () => {
       }
 
     } else {
-      setErrMsg('Cannot proceed, file is not pdf')
+      setErrMsg('Cannot proceed, file is not pdf..')
       setStatusResult('')
     }
     
