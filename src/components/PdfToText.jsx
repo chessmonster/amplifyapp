@@ -85,6 +85,7 @@ const PdfToText = () => {
 
     } else {
       setErrMsg('Cannot proceed, file is not pdf')
+      setStatusResult('')
     }
     
 	};
@@ -94,8 +95,7 @@ const PdfToText = () => {
     <div className="callout">
       <div className="container">
         <div class="row align-items-center my-5">
-            <div class="w-100 p-3 col-lg-5">
-              <div>
+            <div class="w-100 p-3">
 
               <input type="file" name="file" onChange={changeHandler} />
               <br />{errMsg}
@@ -107,13 +107,11 @@ const PdfToText = () => {
                 <p>Select a file to show details. {errMsg}</p> 
               )}
 
-              <br />
-              
-              {statusResult}
+          </div>
+          <div class="w-100 p-3">
 
-              <br />
-              
-            </div>
+            {statusResult}
+
           </div>
         </div>
       </div>  
