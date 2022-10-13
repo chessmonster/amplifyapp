@@ -11,3 +11,5 @@ export { default as Post } from "./blog/Post";
 export { default as Googlepro } from "./Googlepro";
 export { default as ImgToText } from "./ImgToText";
 export { default as PdfToText } from "./PdfToText";
+export { default as Mp4ToMp3 } from "./Mp4ToMp3";
+export { default as Movie } from "./Movie";

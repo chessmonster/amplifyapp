@@ -48,6 +48,8 @@ import {
   Post,
   ImgToText,
   PdfToText,
+  Mp4ToMp3,
+  Movie,
 } from "./components/";
 
 ReactDOM.render(
@@ -66,6 +68,8 @@ ReactDOM.render(
       </Route>
       <Route path="/googlepro" element={<Googlepro />} />
       <Route path="/pdftotext" element={<PdfToText />} />
+      <Route path="/mp4tomp3" element={<Mp4ToMp3 />} />
+      <Route path="/movie" element={<Movie />} />
     </Routes>
     <Footer />
   </Router>,

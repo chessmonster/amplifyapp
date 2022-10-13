@@ -38,27 +38,16 @@ function Navigation() {
                   Pdf2Text
                 </NavLink>
               </li>
-              {/* <li className="nav-item">
-                <NavLink className="nav-link" to="/callout">
-                  Callout
-                  <span className="sr-only">(current)</span>
-                </NavLink>
-              </li> */}
-              {/* <li className="nav-item">
-                <NavLink className="nav-link" to="/about">
-                  About
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/mp4tomp3">
+                  Mp4ToMp3
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/contact">
-                  Contact
+                <NavLink className="nav-link" to="/movie">
+                  Movie
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/blog">
-                  Blog
-                </NavLink>
-              </li> */}
             </ul>
           </div>
         </div>
