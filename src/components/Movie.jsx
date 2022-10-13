@@ -1,3 +1,15 @@
+/**
+ * search movie details using a fast api service. this is a separate fastapi service that I also created
+ * 
+ * this separate service is hosted in aws ec2.
+ * for now, it needs to run via an open cmd. so connect to the ec2 instance via ssh,
+ * then run the fast api app using uvicorn.
+ * 
+ * might need to check if the IP is the same.
+ * if it has already changed, update the nginx file with the new IP.
+ * then restart nginx.
+ */
+
 import React from "react";
 
 class Callout2 extends React.Component {
@@ -8,7 +20,6 @@ class Callout2 extends React.Component {
   
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
-
     }
   
     handleChange(event) {
@@ -17,7 +28,7 @@ class Callout2 extends React.Component {
   
     async handleSubmit(event) {
       event.preventDefault()
-      fetch(`http://13.59.134.122/movie/${this.state.value}`)
+      fetch(`http://3.15.155.66/movie/${this.state.value}`)
       .then((response) => response.json())
       .then((data) => {
          this.setState({movieDetails: JSON.stringify(data)});

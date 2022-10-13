@@ -45,7 +45,7 @@ function Navigation() {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/movie">
-                  Movie
+                  MovieSearch
                 </NavLink>
               </li>
             </ul>

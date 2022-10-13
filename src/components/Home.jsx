@@ -31,7 +31,7 @@ function Home() {
                   Mp4ToMp3
                 </NavLink>
                 <NavLink className="nav-link" to="/movie">
-                  Movie
+                  MovieSearch
                 </NavLink>
           </div>
         </div>

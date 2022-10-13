@@ -8,6 +8,8 @@ import React, { useState } from 'react';
 // from there, I am able to access the convert function 
 import * as converter from 'video-to-audio';
 
+// another issue. the import won't work in amplify for some reason
+// the convert function is not being found as an exported function
 
 class Mp4ToMp3 extends React.Component {
 
@@ -15,20 +17,19 @@ class Mp4ToMp3 extends React.Component {
 
     constructor(props) {
       super(props)
-      console.log('in constructor')
     }
 
     async convert(event) {
-      console.log('about to do conversion')
+      // console.log('about to do conversion')
 
-      let convertedAudioDataObj = await converter.convert(event.target.files[0], 'mp3');
+      // let convertedAudioDataObj = await converter.convert(event.target.files[0], 'mp3');
 
-      console.log('conversion done, about to download file to browser')
+      // console.log('conversion done, about to download file to browser')
 
-      let a = document.createElement("a");
-      a.href = convertedAudioDataObj.data;
-      a.download = convertedAudioDataObj.name + "." + convertedAudioDataObj.format;
-      a.click();
+      // let a = document.createElement("a");
+      // a.href = convertedAudioDataObj.data;
+      // a.download = convertedAudioDataObj.name + "." + convertedAudioDataObj.format;
+      // a.click();
     }
   
     render() {
@@ -36,13 +37,18 @@ class Mp4ToMp3 extends React.Component {
         <div className="callout">
           <div className="container">
 
+            
+
             <div class="row align-items-center my-5">
               <div class="w-100 p-3 col-lg-5">
 
-                <input type='file' accept=".mp4, .avi, .mov" onChange={this.convert} />
+                {/* <input type='file' accept=".mp4, .avi, .mov" onChange={this.convert} /> */}
+                <input type='file' accept=".mp4, .avi, .mov" />
 
               </div>
             </div>
+
+            UNDER MAINTENANCE
 
           </div>
         </div>
