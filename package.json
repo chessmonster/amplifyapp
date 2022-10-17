@@ -1,5 +1,5 @@
 {
-  "homepage": "https://master.d258et1fw5dxxh.amplifyapp.com/",
+  "homepage": "https://master.d258et1fw5dxxh.amplifyapp.com/#/",
   "name": "amplifyapp",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +17,7 @@
     "react-scripts": "5.0.1",
     "tesseract.js": "^3.0.3",
     "video-to-audio": "^1.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4"`
   },
   "scripts": {
     "start": "react-scripts start",
