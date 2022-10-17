@@ -4,8 +4,8 @@
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
-import Amplify from 'aws-amplify';
-import config from './aws-exports';
+// import Amplify from 'aws-amplify';
+// import config from './aws-exports';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -51,7 +51,7 @@ import {
   Movie,
 } from "./components/";
 
-Amplify.configure(config);
+// Amplify.configure(config);
 
 ReactDOM.render(
   <Router>

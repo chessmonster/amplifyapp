@@ -1,5 +1,5 @@
-import Amplify from 'aws-amplify';
-import config from '../aws-exports';
+// import Amplify from 'aws-amplify';
+// import config from '../aws-exports';
 
 export { default as Navigation } from "./Navigation";
 export { default as Footer } from "./Footer";
@@ -17,4 +17,4 @@ export { default as PdfToText } from "./PdfToText";
 export { default as Mp4ToMp3 } from "./Mp4ToMp3";
 export { default as Movie } from "./Movie";
 
-Amplify.configure(config);
+// Amplify.configure(config);

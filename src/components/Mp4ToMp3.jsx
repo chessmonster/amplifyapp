@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 // wala naman exported na value na ang pangalan ay VideoToAudio
 // so I had to import the whole script and put an alias. 
 // from there, I am able to access the convert function 
-import * as converter from 'video-to-audio';
+// import * as converter from 'video-to-audio';
 
 // another issue. the import won't work in amplify for some reason
 // the convert function is not being found as an exported function
