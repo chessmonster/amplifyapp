@@ -13,7 +13,7 @@ function Home() {
               alt=""
             />
           </div> */}
-          <div class="col-lg-5">
+          <div class="col-lg-5 h-10">
             <h1 class="font-weight-light">Toolsuite</h1>
                 <NavLink className="nav-link" to="/callout2">
                   Callout2

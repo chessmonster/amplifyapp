@@ -51,8 +51,6 @@ import {
   Movie,
 } from "./components/";
 
-// Amplify.configure(config);
-
 ReactDOM.render(
   <Router>
     <Navigation />

@@ -2,11 +2,11 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="footer" style={{paddingTop:"300px"}}>
+    <div className="footer" style={{paddingTop:"500px"}}>
       <footer class="py-5 bg-dark">
         <div class="container">
           <p class="m-0 text-center text-white">
-            Copyright &copy; Arigatools 2022
+            Want to request a tool? Shoot me an email @ <a href="mailto:arigatools@gmail.com">arigatools@gmail.com</a>
           </p>
         </div>
       </footer>

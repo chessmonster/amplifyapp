@@ -51,12 +51,12 @@ class Callout2 extends React.Component {
             </div>
 
             <marquee 
-                  height="50" 
+                  height="100%" 
                   width="90%" 
                   direction="left"
                   scrollamount="3">
               <p>
-                <font size="50">{this.state.value}</font>
+                <font size="5000">{this.state.value}</font>
               </p> 
             </marquee>                
           
@@ -66,7 +66,4 @@ class Callout2 extends React.Component {
     }
   }
   
-//   const root = ReactDOM.createRoot(document.getElementById('root'));
-//   root.render(<Callout2 />);
-
 export default Callout2
